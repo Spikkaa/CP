@@ -98,11 +98,16 @@ body {
 }
 
 .hero__cta {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 529px;
+  height: 80px;
+  box-sizing: border-box;
   background: #6C63FF;
   color: #fff;
   text-decoration: none;
-  padding: 14px 28px;
+  padding: 0;
   border-radius: 8px;
   box-shadow: 0 6px 0 rgba(0,0,0,0.18);
   font-weight: 700;
