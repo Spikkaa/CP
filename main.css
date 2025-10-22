@@ -42,6 +42,10 @@ body {
 .nav__icons {
   display: flex;
   gap: 40px;
+  position: fixed;
+  right: 120px; /* align with body horizontal padding */
+  bottom: 30px; /* align with body bottom padding */
+  z-index: 1000;
 }
 
 .nav__icons img {
